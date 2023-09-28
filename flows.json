@@ -1,0 +1,2531 @@
+[
+    {
+        "id": "5db436d53cb4f41b",
+        "type": "tab",
+        "label": "PMS 02 - Working",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b5b496e44fdb3562",
+        "type": "tab",
+        "label": "Dashboard UI",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5eebdf7ee883b51b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "92df105e48d3dee6",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6b9cf0fe51b670c2",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ff28960ba7ba913e",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "233adb9941e22356",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9f022382eed61b8e",
+        "type": "minio-config",
+        "name": "MinIO Instance",
+        "host": "172.17.0.3",
+        "port": "9000",
+        "useSsl": false
+    },
+    {
+        "id": "647503373ca78c37",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "true",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "961e54079e94a77a",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fb9345271571493d",
+        "type": "ui_group",
+        "name": "Port 1 Ping",
+        "tab": "8a966bcb36881739",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "f171c58eb6c317d9",
+        "type": "ui_group",
+        "name": "BW - Port2",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "534811ca9d9c22af",
+        "type": "ui_group",
+        "name": "BW Port1",
+        "tab": "8a966bcb36881739",
+        "order": 4,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "165b3e5816a8130b",
+        "type": "ui_group",
+        "name": "API Configuration",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b3038be668a7a038",
+        "type": "ui_group",
+        "name": "External Pings",
+        "tab": "8a966bcb36881739",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "8a966bcb36881739",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2963b5d45a9c8c23",
+        "type": "ui_group",
+        "name": "Openwhisk",
+        "tab": "8a966bcb36881739",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "df67b779.0f71e",
+        "type": "ui_group",
+        "name": "OpenWhisk Action",
+        "tab": "8a966bcb36881739",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "a8b634dcf4cd48ea",
+        "type": "inject",
+        "z": "5db436d53cb4f41b",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 410,
+        "y": 120,
+        "wires": [
+            [
+                "8fa7721458997a97"
+            ]
+        ]
+    },
+    {
+        "id": "8fa7721458997a97",
+        "type": "http request",
+        "z": "5db436d53cb4f41b",
+        "name": "interface json",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://192.168.1.18/api/v2/cmdb/system/interface/port2",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 530,
+        "y": 260,
+        "wires": [
+            [
+                "de3baee50d3d3719",
+                "216403ef10de79b9",
+                "23e429c82a8d816f",
+                "7465cd708355ed26"
+            ]
+        ]
+    },
+    {
+        "id": "23e429c82a8d816f",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "Interface IP",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.results[0].ip",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "216403ef10de79b9",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "Interface Status",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.results[0].status",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "de3baee50d3d3719",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "Full Json Response",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "e43d3ed42b8c44ee",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "debug 14",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "7465cd708355ed26",
+        "type": "file",
+        "z": "5db436d53cb4f41b",
+        "name": "write file",
+        "filename": "port2_temp.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "setbymsg",
+        "x": 700,
+        "y": 400,
+        "wires": [
+            [
+                "411a71f487528b1f",
+                "a6c54e1be6ce7434"
+            ]
+        ]
+    },
+    {
+        "id": "411a71f487528b1f",
+        "type": "function",
+        "z": "5db436d53cb4f41b",
+        "name": "function 6",
+        "func": "var currentDate = new Date();\nvar filename =\n  currentDate.getFullYear() +\n  ('0' + (currentDate.getMonth() + 1)).slice(-2) +\n  ('0' + currentDate.getDate()).slice(-2) +\n  ('0' + currentDate.getHours()).slice(-2) +\n  ('0' + currentDate.getMinutes()).slice(-2) +\n  ('0' + currentDate.getSeconds()).slice(-2) +\n  '_port2.txt';\n\nmsg.bucketName = \"interfacesbucket\";\nmsg.objectName = \"port2\" + \"/\" + filename;\nmsg.filePath = \"port2_temp.txt\";\nmsg.metaData = {\n  status: msg.payload.results[0].status,\n  ip: msg.payload.results[0].ip\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 460,
+        "wires": [
+            [
+                "e43d3ed42b8c44ee",
+                "60d19f3830625038"
+            ]
+        ]
+    },
+    {
+        "id": "5e337d69ea95f946",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "c7dba0949148e398",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "Meta-Status",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.Records[0].s3.object.userMetadata.X-Amz-Meta-Status",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1270,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "a898ff5747084d89",
+        "type": "switch",
+        "z": "5db436d53cb4f41b",
+        "name": "Port 2 Status",
+        "property": "payload.Records[0].s3.object.userMetadata.X-Amz-Meta-Status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "up",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "up",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1190,
+        "y": 880,
+        "wires": [
+            [],
+            [
+                "4cd3dfe2291558e4"
+            ]
+        ]
+    },
+    {
+        "id": "b3edf88850c3690b",
+        "type": "e-mail",
+        "z": "5db436d53cb4f41b",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": false,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": false,
+        "name": "itp22109@hua.gr",
+        "dname": "Send->Down Port 2",
+        "x": 1670,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "c26cfd8df53f3a2e",
+        "type": "function",
+        "z": "5db436d53cb4f41b",
+        "name": "Port 2 Down Function Mail",
+        "func": "// Check if Port 2 status is \"down\"\nif (msg.payload.Records && msg.payload.Records.length > 0 &&\n    msg.payload.Records[0].s3 && msg.payload.Records[0].s3.object &&\n    msg.payload.Records[0].s3.object.userMetadata &&\n    msg.payload.Records[0].s3.object.userMetadata['X-Amz-Meta-Status'] === 'down') {\n\n    // Create the email message\n    msg.subject = \"Port 2 Status is DOWN\";\n    msg.payload = \"Port 2 Status is DOWN\\n\\nStatus Value: \" + msg.payload.Records[0].s3.object.userMetadata['X-Amz-Meta-Status'] +\n     \"\\n\\nAPI Value:\" + msg.payload.Records[0].s3\n     + \"\\n\\nMessage Payload:\\n\" + JSON.stringify(msg.payload, null, 2);\n    return msg;\n} else {\n    // Return null if Port 2 status is not \"down\"\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4cd3dfe2291558e4",
+        "type": "function",
+        "z": "5db436d53cb4f41b",
+        "name": "Port 2 is Down - Coloured",
+        "func": "\n// Check if Port 2 status is \"down\"\nif (msg.payload.Records && msg.payload.Records.length > 0 &&\n    msg.payload.Records[0].s3 && msg.payload.Records[0].s3.object &&\n    msg.payload.Records[0].s3.object.userMetadata &&\n    msg.payload.Records[0].s3.object.userMetadata['X-Amz-Meta-Status'] === 'down') {\n\n    // Create the email message\n    msg.subject = '<span style=\"color:red; font-weight:bold;\">Interface DOWN - PORT 2</span>';\n\n    // Define HTML formatting for specific parts of the message\n    const ipText = '<span style=\"color:red; font-weight:bold;\">X-Amz-Meta-Ip: 0.0.0.0 0.0.0.0</span>';\n    const statusText = '<span style=\"color:red; font-weight:bold;\">X-Amz-Meta-Status: down</span>';\n    const port2Text = '<span style=\"color:red; font-weight:bold;\">PORT 2 is DOWN</span>';\n    const firewallText = '<span style=\"color:red; font-weight:bold;\">Firewall PORT 2 is DOWN</span>';\n\n    // Construct the email body with formatted text\n    msg.payload = `\n        <html>\n        <head></head>\n        <body>\n            <div>Port 2 Status is DOWN.</div>\n            <div>Status Value: ${statusText}</div>\n            <div>Message Payload:</div>\n            <pre>${JSON.stringify(msg.payload, null, 2)}</pre>\n            <div>${ipText}</div>\n            <div>${port2Text}</div>\n            <div>${firewallText}</div>\n        </body>\n        </html>`;\n\n    return msg;\n} else {\n    // Return null if Port 2 status is not \"down\"\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 1040,
+        "wires": [
+            [
+                "b3edf88850c3690b"
+            ]
+        ]
+    },
+    {
+        "id": "281e77fe5d44f5c6",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "msg Payload",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload[\"Port 2 - Status\"]",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1630,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "9d969feecb8603bb",
+        "type": "http request",
+        "z": "5db436d53cb4f41b",
+        "name": "interface json",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://192.168.1.18/api/v2/cmdb/system/interface/port1",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 1010,
+        "y": 1180,
+        "wires": [
+            [
+                "18b20405d10c964f"
+            ]
+        ]
+    },
+    {
+        "id": "18b20405d10c964f",
+        "type": "function",
+        "z": "5db436d53cb4f41b",
+        "name": "Filter API Output",
+        "func": "var ip = msg.payload.results[0].ip;\nvar status = msg.payload.results[0].status;\n\nmsg.payload = {\n    \"Port 2 - IP\": ip,\n    \"Port 2 - Status\": status\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 1180,
+        "wires": [
+            [
+                "281e77fe5d44f5c6"
+            ]
+        ]
+    },
+    {
+        "id": "cdcbacfb5563797e",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "60d19f3830625038",
+        "type": "files",
+        "z": "5db436d53cb4f41b",
+        "files_name": "",
+        "host": "9f022382eed61b8e",
+        "files_operation": "fPutObject",
+        "files_bucket": "",
+        "files_object": "",
+        "files_filepath": "",
+        "files_metadata": "",
+        "x": 1020,
+        "y": 600,
+        "wires": [
+            [
+                "cdcbacfb5563797e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bc42d9eb5e766415",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "a6c54e1be6ce7434",
+        "type": "function",
+        "z": "5db436d53cb4f41b",
+        "name": "function 7",
+        "func": "\nmsg.payload.results[0].ip = {\n    ip: msg.host\n }\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 1280,
+        "wires": [
+            [
+                "bc42d9eb5e766415"
+            ]
+        ]
+    },
+    {
+        "id": "3b992f7d684b2ce9",
+        "type": "function",
+        "z": "5db436d53cb4f41b",
+        "d": true,
+        "name": "Extract IP and Set Host",
+        "func": "// Extract the IP address from msg.payload.results[0].ip\nconst ipAddress = msg.payload.results[0].ip.split(' ')[0];\n\n// Create a new message with the extracted IP address\nmsg.host = ipAddress;\n\n// Send the IP address as plain text to the debug node\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d74bedc1dc552d4b",
+        "type": "http request",
+        "z": "5db436d53cb4f41b",
+        "d": true,
+        "name": "interface json",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 190,
+        "y": 1860,
+        "wires": [
+            [
+                "3b992f7d684b2ce9"
+            ]
+        ]
+    },
+    {
+        "id": "1afdb440b8088d38",
+        "type": "http in",
+        "z": "5db436d53cb4f41b",
+        "name": "Ports URL",
+        "url": "/conf",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 1580,
+        "wires": [
+            [
+                "b2ec60295d58998e"
+            ]
+        ]
+    },
+    {
+        "id": "ed94e727d23e9dc9",
+        "type": "http response",
+        "z": "5db436d53cb4f41b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 680,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "b2ec60295d58998e",
+        "type": "template",
+        "z": "5db436d53cb4f41b",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n<head>\n <title>Node-RED API Monitor Configuration</title>\n\n<style>\n  body {\n    font-family: Arial, sans-serif;\n    background-color: #f4f4f4;\n    margin: 0;\n    padding: 0;\n  }\n\n  h1 {\n    background-color: #007acc;\n    color: #fff;\n    padding: 20px;\n    text-align: center;\n  }\n\n  form {\n    max-width: 400px;\n    margin: 0 auto;\n    padding: 20px;\n    background: #fff;\n    border-radius: 5px;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);\n  }\n\n  label {\n    display: block;\n    margin-bottom: 10px;\n  }\n\n  input[type=\"text\"] {\n    width: 100%;\n    padding: 10px;\n    margin-bottom: 15px;\n    border: 1px solid #ccc;\n    border-radius: 3px;\n  }\n\n  input[type=\"submit\"] {\n    background-color: #007acc;\n    color: #fff;\n    border: none;\n    padding: 10px 20px;\n    border-radius: 3px;\n    cursor: pointer;\n  }\n\n  input[type=\"submit\"]:hover {\n    background-color: #0056b3;\n  }\n\n\n\n </style>\n</head>\n<body>\n <h1>Node-RED API Monitor Configuration</h1>\n <form id=\"configForm\" action=\"/submit\" method=\"POST\">\n <label for=\"apiIP\">API IP Address:</label>\n <input type=\"text\" id=\"apiIP\" name=\"apiIP\"><br><br>\n\n <label for=\"apiPort\">API Port:</label>\n <input type=\"text\" id=\"apiPort\" name=\"apiPort\"><br><br>\n\n <input type=\"submit\" value=\"Submit\">\n </form>\n\n\n <script>\n document.getElementById(\"configForm\").addEventListener(\"submit\", function(event) {\n event.preventDefault();\n\n // Get the values entered by the user\n const apiIP = document.getElementById(\"apiIP\").value;\n const apiPort = document.getElementById(\"apiPort\").value;\n\n // Create an object with the user's input\n const config = {\n apiIP: apiIP,\n apiPort: apiPort\n };\n\n // Send the configuration to Node-RED\n fetch(\"/submit\", {\n method: \"POST\",\n headers: {\n \"Content-Type\": \"application/json\"\n },\n body: JSON.stringify(config)\n }).then(function(response) {\n if (response.ok) {\n alert(\"Configuration saved successfully!\");\n } else {\n alert(\"Failed to save configuration.\");\n }\n });\n });\n </script>\n</body>\n</html>",
+        "output": "str",
+        "x": 430,
+        "y": 1580,
+        "wires": [
+            [
+                "ed94e727d23e9dc9"
+            ]
+        ]
+    },
+    {
+        "id": "5f5556a589919d43",
+        "type": "http in",
+        "z": "5db436d53cb4f41b",
+        "name": "Submit Form",
+        "url": "/submit",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 1680,
+        "wires": [
+            [
+                "3c69fdeb55a2fd3e",
+                "b2ec60295d58998e"
+            ]
+        ]
+    },
+    {
+        "id": "3c69fdeb55a2fd3e",
+        "type": "function",
+        "z": "5db436d53cb4f41b",
+        "name": "Build API URL",
+        "func": "const apiIP = msg.payload.apiIP;\nconst apiPort = msg.payload.apiPort;\nmsg.url = `http://${apiIP}/api/v2/cmdb/system/interface/${apiPort}`;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1680,
+        "wires": [
+            [
+                "b0025c238accad08"
+            ]
+        ]
+    },
+    {
+        "id": "b0025c238accad08",
+        "type": "http request",
+        "z": "5db436d53cb4f41b",
+        "name": "Send API Request",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 650,
+        "y": 1680,
+        "wires": [
+            [
+                "92e1524b307364cb",
+                "d95ab1e96f90c84d"
+            ]
+        ]
+    },
+    {
+        "id": "92e1524b307364cb",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "Interface IP",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.results[0].ip",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "d95ab1e96f90c84d",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "Interface Status",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.results[0].status",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "a368f31a6cca5f46",
+        "type": "comment",
+        "z": "5db436d53cb4f41b",
+        "name": "Oprion 1 will drive UI",
+        "info": "",
+        "x": 1370,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "4830b361ec9a8dda",
+        "type": "http in",
+        "z": "5db436d53cb4f41b",
+        "name": "Port2-Webhook",
+        "url": "/port2",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 960,
+        "y": 740,
+        "wires": [
+            [
+                "5e337d69ea95f946",
+                "c7dba0949148e398",
+                "a898ff5747084d89"
+            ]
+        ]
+    },
+    {
+        "id": "7fd801ffd1ec56fd",
+        "type": "http request",
+        "z": "5db436d53cb4f41b",
+        "name": "interface json",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://192.168.1.18/api/v2/cmdb/system/hardware-address/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 370,
+        "y": 40,
+        "wires": [
+            [
+                "5d950e654bc77481"
+            ]
+        ]
+    },
+    {
+        "id": "5d950e654bc77481",
+        "type": "debug",
+        "z": "5db436d53cb4f41b",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "2cea634b4e2da59b",
+        "type": "inject",
+        "z": "5db436d53cb4f41b",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 40,
+        "wires": [
+            [
+                "7fd801ffd1ec56fd",
+                "8fa7721458997a97"
+            ]
+        ]
+    },
+    {
+        "id": "bac996967df44ae2",
+        "type": "function",
+        "z": "b5b496e44fdb3562",
+        "name": "Extract IP and Set Host",
+        "func": "// Extract the IP address from msg.payload.results[0].ip\nconst ipAddress = msg.payload.results[0].ip.split(' ')[0];\n\n// Create a new message with the extracted IP address\nmsg.host = ipAddress;\n\n// Send the IP address as plain text to the debug node\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 120,
+        "wires": [
+            [
+                "6b51f590df15e381",
+                "c0523f54fef7081a"
+            ]
+        ]
+    },
+    {
+        "id": "e51b22e4e349f44f",
+        "type": "http request",
+        "z": "b5b496e44fdb3562",
+        "name": "interface json",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://192.168.1.18/api/v2/cmdb/system/interface/port1",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 310,
+        "y": 120,
+        "wires": [
+            [
+                "bac996967df44ae2"
+            ]
+        ]
+    },
+    {
+        "id": "6b51f590df15e381",
+        "type": "debug",
+        "z": "b5b496e44fdb3562",
+        "name": "debug 20",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "2e7928178279e0ba",
+        "type": "debug",
+        "z": "b5b496e44fdb3562",
+        "name": "debug 21",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "a5b1c196cdbb5e56",
+        "type": "ping",
+        "z": "b5b496e44fdb3562",
+        "protocol": "Automatic",
+        "mode": "timed",
+        "name": "",
+        "host": "8.8.8.8",
+        "timer": "5",
+        "inputs": 0,
+        "x": 750,
+        "y": 340,
+        "wires": [
+            [
+                "2e7928178279e0ba",
+                "126ce96fccc84f60",
+                "7f5085e7bb5d830b"
+            ]
+        ]
+    },
+    {
+        "id": "126ce96fccc84f60",
+        "type": "ui_gauge",
+        "z": "b5b496e44fdb3562",
+        "name": "",
+        "group": "b3038be668a7a038",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Port - 8.8.8.8",
+        "label": "ms",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "60",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 970,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "7f5085e7bb5d830b",
+        "type": "ui_chart",
+        "z": "b5b496e44fdb3562",
+        "name": "",
+        "group": "b3038be668a7a038",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 950,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c0523f54fef7081a",
+        "type": "conf ping",
+        "z": "b5b496e44fdb3562",
+        "name": "",
+        "host": "",
+        "timeout": "5",
+        "requests": "1",
+        "x": 850,
+        "y": 120,
+        "wires": [
+            [
+                "11ec6bd44603e280",
+                "cfe844cc6c46b35d"
+            ]
+        ]
+    },
+    {
+        "id": "11ec6bd44603e280",
+        "type": "ui_gauge",
+        "z": "b5b496e44fdb3562",
+        "name": "",
+        "group": "fb9345271571493d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Port 1",
+        "label": "msec",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1090,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "cbeeab4bf247777e",
+        "type": "inject",
+        "z": "b5b496e44fdb3562",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "e51b22e4e349f44f"
+            ]
+        ]
+    },
+    {
+        "id": "cfe844cc6c46b35d",
+        "type": "ui_chart",
+        "z": "b5b496e44fdb3562",
+        "name": "",
+        "group": "fb9345271571493d",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Port1",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 1070,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c0d7b3337cfaf2f",
+        "type": "inject",
+        "z": "b5b496e44fdb3562",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 780,
+        "wires": [
+            [
+                "49f90fc3a3df8466"
+            ]
+        ]
+    },
+    {
+        "id": "49f90fc3a3df8466",
+        "type": "http request",
+        "z": "b5b496e44fdb3562",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://192.168.1.18/api/v2/monitor/system/interface",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 780,
+        "wires": [
+            [
+                "27aae264f6762187",
+                "b747441c16648753"
+            ]
+        ]
+    },
+    {
+        "id": "b747441c16648753",
+        "type": "function",
+        "z": "b5b496e44fdb3562",
+        "name": "BW Port 1 Tx",
+        "func": "// Initialize the previous value and timestamp\nif (!context.get(\"prevValue\")) {\n    context.set(\"prevValue\", msg.payload.results.port1.tx_bytes);\n    context.set(\"prevTimestamp\", new Date().getTime());\n}\n\n// Calculate the bitrate in Kbps\nconst currentValue = msg.payload.results.port1.tx_bytes;\nconst previousValue = context.get(\"prevValue\");\nconst currentTimestamp = new Date().getTime();\nconst previousTimestamp = context.get(\"prevTimestamp\");\n\nconst bitsTransferred = (currentValue - previousValue) * 8; // Convert to bits\nconst timeElapsedInSeconds = (currentTimestamp - previousTimestamp) / 1000; // Convert to seconds\nconst bitrateKbps = Math.floor(bitsTransferred / timeElapsedInSeconds / 1024); // Convert to Kbps and remove decimals\n\n// Update the previous value and timestamp\ncontext.set(\"prevValue\", currentValue);\ncontext.set(\"prevTimestamp\", currentTimestamp);\n\n// Create a new message with the calculated bitrate\nmsg.payload = bitrateKbps;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 780,
+        "wires": [
+            [
+                "ddde42d0ec8da006",
+                "3c1d0bb4ed27d343",
+                "f22604c82692e2cc"
+            ]
+        ]
+    },
+    {
+        "id": "ddde42d0ec8da006",
+        "type": "debug",
+        "z": "b5b496e44fdb3562",
+        "name": "debug 26",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "3c1d0bb4ed27d343",
+        "type": "ui_gauge",
+        "z": "b5b496e44fdb3562",
+        "name": "Bitrate Gauge",
+        "group": "534811ca9d9c22af",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Tx Bitrate",
+        "label": "Kbps",
+        "format": "{{value | number:1}}",
+        "min": 0,
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 910,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "27aae264f6762187",
+        "type": "debug",
+        "z": "b5b496e44fdb3562",
+        "name": "Interface TX Bytes",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.results.port1.tx_bytes",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "e2df957e68208fa9",
+        "type": "inject",
+        "z": "b5b496e44fdb3562",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"interval\" : 1000}",
+        "payloadType": "str",
+        "x": 460,
+        "y": 880,
+        "wires": [
+            [
+                "b747441c16648753"
+            ]
+        ]
+    },
+    {
+        "id": "f22604c82692e2cc",
+        "type": "ui_chart",
+        "z": "b5b496e44fdb3562",
+        "name": "",
+        "group": "534811ca9d9c22af",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Tx Port1 chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 940,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "14267923a554638f",
+        "type": "inject",
+        "z": "b5b496e44fdb3562",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 1200,
+        "wires": [
+            [
+                "8923bbe0842ccef0"
+            ]
+        ]
+    },
+    {
+        "id": "8923bbe0842ccef0",
+        "type": "http request",
+        "z": "b5b496e44fdb3562",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://192.168.1.18/api/v2/monitor/system/interface/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "bearer",
+        "senderr": false,
+        "headers": [],
+        "x": 450,
+        "y": 1200,
+        "wires": [
+            [
+                "5e8029b2d03d9c9d",
+                "78bf68605c87d1b7"
+            ]
+        ]
+    },
+    {
+        "id": "78bf68605c87d1b7",
+        "type": "function",
+        "z": "b5b496e44fdb3562",
+        "name": "BW Port 1 Rx",
+        "func": "// working no auto adjust\n\n// Initialize the previous value and timestamp\nif (!context.get(\"prevValue\")) {\n    context.set(\"prevValue\", msg.payload.results.port1.rx_bytes);\n    context.set(\"prevTimestamp\", new Date().getTime());\n}\n\n// Calculate the bitrate in Kbps\nconst currentValue = msg.payload.results.port1.rx_bytes;\nconst previousValue = context.get(\"prevValue\");\nconst currentTimestamp = new Date().getTime();\nconst previousTimestamp = context.get(\"prevTimestamp\");\n\nconst bitsTransferred = (currentValue - previousValue) * 8; // Convert to bits\nconst timeElapsedInSeconds = (currentTimestamp - previousTimestamp) / 1000; // Convert to seconds\nconst bitrateMbps = Math.floor(bitsTransferred / timeElapsedInSeconds / 1024 / 1024); // Convert to Mbps and remove decimals\n\n// Update the previous value and timestamp\ncontext.set(\"prevValue\", currentValue);\ncontext.set(\"prevTimestamp\", currentTimestamp);\n\n// Create a new message with the calculated bitrate\nmsg.payload = bitrateMbps;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1200,
+        "wires": [
+            [
+                "5c7c3a30e26ce05a",
+                "36df0d9bc94e763e",
+                "df38f8085f20f67d"
+            ]
+        ]
+    },
+    {
+        "id": "5c7c3a30e26ce05a",
+        "type": "debug",
+        "z": "b5b496e44fdb3562",
+        "name": "debug 27",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "36df0d9bc94e763e",
+        "type": "ui_gauge",
+        "z": "b5b496e44fdb3562",
+        "name": "Bitrate Gauge",
+        "group": "534811ca9d9c22af",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Rx Bitrate",
+        "label": "Mbps",
+        "format": "{{value | number:1}}",
+        "min": "0",
+        "max": "150",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 930,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "5e8029b2d03d9c9d",
+        "type": "debug",
+        "z": "b5b496e44fdb3562",
+        "name": "Interface RX Bytes",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.results.port1.rx_bytes",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "5843cbcdebbd7381",
+        "type": "inject",
+        "z": "b5b496e44fdb3562",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"interval\" : 1000}",
+        "payloadType": "str",
+        "x": 480,
+        "y": 1300,
+        "wires": [
+            [
+                "78bf68605c87d1b7"
+            ]
+        ]
+    },
+    {
+        "id": "df38f8085f20f67d",
+        "type": "ui_chart",
+        "z": "b5b496e44fdb3562",
+        "name": "",
+        "group": "534811ca9d9c22af",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "Rx Port1 chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "x": 960,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "69f3bef72ec5a6b1",
+        "type": "http in",
+        "z": "b5b496e44fdb3562",
+        "name": "Port2-OpenWhisk",
+        "url": "/msg",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 1660,
+        "wires": [
+            [
+                "1f23d2d5953df26a"
+            ]
+        ]
+    },
+    {
+        "id": "1f23d2d5953df26a",
+        "type": "debug",
+        "z": "b5b496e44fdb3562",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "347cddf0dac44d03",
+        "type": "debug",
+        "z": "b5b496e44fdb3562",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "0ac9dfb4cb4ae968",
+        "type": "http in",
+        "z": "b5b496e44fdb3562",
+        "name": "Blacklist input",
+        "url": "/blacklist",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 2000,
+        "wires": [
+            [
+                "347cddf0dac44d03",
+                "9646435014797e89"
+            ]
+        ]
+    },
+    {
+        "id": "c1759f07c4cb5306",
+        "type": "ui_led",
+        "z": "b5b496e44fdb3562",
+        "d": true,
+        "order": 3,
+        "group": "2963b5d45a9c8c23",
+        "width": 2,
+        "height": 2,
+        "label": "Blacklist IP found",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 590,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "838fbca90fdab9df",
+        "type": "ui_audio",
+        "z": "b5b496e44fdb3562",
+        "d": true,
+        "name": "",
+        "group": "2963b5d45a9c8c23",
+        "voice": "Google US English",
+        "always": "",
+        "x": 600,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "9646435014797e89",
+        "type": "function",
+        "z": "b5b496e44fdb3562",
+        "name": "Function to Process Blacklist",
+        "func": "var blacklistedIP = msg.payload.ip;\nif (msg.payload.status === 'Blacklisted') {\n    // Update the LED to red\n    msg.payload = true;\n    node.status({fill:'red',shape:'dot',text:'Blacklisted IP: ' + blacklistedIP});\n    // Play an alarm sound\n    msg.audio = { command: 'play', payload: '/data/mixkit-alert-alarm-1005.wav' };\n    // Update the UI text\n    msg.uiText = 'The blacklisted IP is: ' + blacklistedIP;\n} else {\n    msg.payload = false;\n    node.status({});\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1880,
+        "wires": [
+            [
+                "c1759f07c4cb5306",
+                "838fbca90fdab9df",
+                "caa1bae34cd367a4"
+            ]
+        ]
+    },
+    {
+        "id": "caa1bae34cd367a4",
+        "type": "ui_text",
+        "z": "b5b496e44fdb3562",
+        "group": "2963b5d45a9c8c23",
+        "order": 1,
+        "width": "8",
+        "height": "5",
+        "name": "",
+        "label": "Blacklisted IP",
+        "format": "{{msg.uiText}}",
+        "layout": "col-center",
+        "x": 510,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "f17d407c4dd5e556",
+        "type": "ui_button",
+        "z": "b5b496e44fdb3562",
+        "d": true,
+        "name": "",
+        "group": "2963b5d45a9c8c23",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Acknowledge Alarm",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "str",
+        "topic": "reset",
+        "topicType": "msg",
+        "x": 410,
+        "y": 1960,
+        "wires": [
+            [
+                "838fbca90fdab9df"
+            ]
+        ]
+    },
+    {
+        "id": "741c55d1.5d78b",
+        "type": "http in",
+        "z": "5eebdf7ee883b51b",
+        "name": "",
+        "url": "/blacklistlog",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 400,
+        "y": 380,
+        "wires": [
+            [
+                "f60e5404.29c0c8",
+                "014cdbb9a2272556"
+            ]
+        ]
+    },
+    {
+        "id": "f60e5404.29c0c8",
+        "type": "file in",
+        "z": "5eebdf7ee883b51b",
+        "name": "Read Text File",
+        "filename": "/data/script.log",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "allProps": false,
+        "x": 640,
+        "y": 380,
+        "wires": [
+            [
+                "7a75a475.5dd45c",
+                "de226926cd47e2f1"
+            ]
+        ]
+    },
+    {
+        "id": "7a75a475.5dd45c",
+        "type": "http response",
+        "z": "5eebdf7ee883b51b",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 910,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "014cdbb9a2272556",
+        "type": "debug",
+        "z": "5eebdf7ee883b51b",
+        "name": "debug 32",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "de226926cd47e2f1",
+        "type": "debug",
+        "z": "5eebdf7ee883b51b",
+        "name": "debug 33",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "8463a466.7d607",
+        "type": "ui_button",
+        "z": "92df105e48d3dee6",
+        "name": "",
+        "group": "2963b5d45a9c8c23",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Invoke OpenWhisk",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 210,
+        "y": 340,
+        "wires": [
+            [
+                "d408328f.8c1018",
+                "2a0fe00d35a9dfb5"
+            ]
+        ]
+    },
+    {
+        "id": "d408328f.8c1018",
+        "type": "function",
+        "z": "92df105e48d3dee6",
+        "name": "Prepare Payload",
+        "func": "// Prepare payload to invoke OpenWhisk action\nmsg.payload = {\n    action: 'pms02', // Replace with your OpenWhisk action name\n    params: {} // Replace with any parameters you want to pass\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "d11a0349.d1e5b8",
+                "a452475dc1e11441"
+            ]
+        ]
+    },
+    {
+        "id": "d11a0349.d1e5b8",
+        "type": "http request",
+        "z": "92df105e48d3dee6",
+        "name": "Invoke OpenWhisk",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://172.17.0.1:3233/api/v1/namespaces/guest/actions/pms02?apikey=123zO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 700,
+        "y": 340,
+        "wires": [
+            [
+                "e5d98f05.28a3c8",
+                "e23e7deb65824c46"
+            ]
+        ]
+    },
+    {
+        "id": "e5d98f05.28a3c8",
+        "type": "function",
+        "z": "92df105e48d3dee6",
+        "name": "Format Results",
+        "func": "// Format results for display in the UI\nconst result = msg.payload;\nconst formattedResult = `IP: ${result.ip}\\nBlacklist Comment: ${result.status}`;\nmsg.payload = formattedResult;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 340,
+        "wires": [
+            [
+                "efc167f3.98319",
+                "9079ec150db43f66"
+            ]
+        ]
+    },
+    {
+        "id": "efc167f3.98319",
+        "type": "ui_text",
+        "z": "92df105e48d3dee6",
+        "group": "2963b5d45a9c8c23",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Result",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1140,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "2a0fe00d35a9dfb5",
+        "type": "debug",
+        "z": "92df105e48d3dee6",
+        "name": "debug 34",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a452475dc1e11441",
+        "type": "debug",
+        "z": "92df105e48d3dee6",
+        "name": "debug 35",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "e23e7deb65824c46",
+        "type": "debug",
+        "z": "92df105e48d3dee6",
+        "name": "debug 36",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "9079ec150db43f66",
+        "type": "debug",
+        "z": "92df105e48d3dee6",
+        "name": "debug 37",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "e8b52da7.6954a8",
+        "type": "ui_button",
+        "z": "6b9cf0fe51b670c2",
+        "name": "",
+        "group": "df67b779.0f71e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Invoke OpenWhisk",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 250,
+        "y": 280,
+        "wires": [
+            [
+                "5adea0f8215b57db"
+            ]
+        ]
+    },
+    {
+        "id": "9c501dfb.9509d",
+        "type": "function",
+        "z": "6b9cf0fe51b670c2",
+        "name": "Prepare Payload",
+        "func": "// Prepare payload to invoke OpenWhisk action\nmsg.payload = {\n    action: 'pms02', // Replace with your OpenWhisk action name\n    params: {} // Replace with any parameters you want to pass\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 280,
+        "wires": [
+            [
+                "f36f319a.74f97",
+                "ad4d3fc75310a54a"
+            ]
+        ]
+    },
+    {
+        "id": "f36f319a.74f97",
+        "type": "function",
+        "z": "6b9cf0fe51b670c2",
+        "name": "Invoke OpenWhisk",
+        "func": "//const apiKey = '23bc46b1-71f6-4ed5-8c54-816aa4f8c502:123zO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP'; // Replace with your actual OpenWhisk API key\nconst credsUser = '23bc46b1-71f6-4ed5-8c54-816aa4f8c502:123zO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP'\nconst CurlCommand = 'curl -X POST http://172.17.0.1:3233/api/v1/namespaces/guest/action/pms02 -u $(credsUser)'\n//const curlCommand = `curl -X POST -H \"Content-Type: application/json\" -H \"Authorization: Bearer ${apiKey}\" http://172.17.0.1:3233/api/v1/namespaces/guest/actions/pms02`;\nconst exec = require('child_process').exec;\nexec(CurlCommand, (error, stdout, stderr) => {\n    if (error) {\n        console.error(`Error: ${error}`);\n        return;\n    }\n    console.log(`Response: ${stdout}`);\n    // Process the response here, if needed\n});",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 280,
+        "wires": [
+            [
+                "ff1825f9a46de764"
+            ]
+        ]
+    },
+    {
+        "id": "ad4d3fc75310a54a",
+        "type": "debug",
+        "z": "6b9cf0fe51b670c2",
+        "name": "debug 38",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "ff1825f9a46de764",
+        "type": "debug",
+        "z": "6b9cf0fe51b670c2",
+        "name": "debug 39",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5adea0f8215b57db",
+        "type": "exec",
+        "z": "6b9cf0fe51b670c2",
+        "command": "curl",
+        "addpay": "",
+        "append": "-X POST http://172.17.0.1:3233/api/v1/namespaces/guest/actions/pms02?/pms02 -u 23bc46b1-71f6-4ed5-8c54-816aa4f8c502:123zO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Openwhisk",
+        "x": 570,
+        "y": 580,
+        "wires": [
+            [
+                "ee3def9ea9c299c1"
+            ],
+            [
+                "ee3def9ea9c299c1"
+            ],
+            [
+                "ee3def9ea9c299c1"
+            ]
+        ]
+    },
+    {
+        "id": "ee3def9ea9c299c1",
+        "type": "debug",
+        "z": "6b9cf0fe51b670c2",
+        "name": "debug 40",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "b16e62b1fca36c0a",
+        "type": "ui_button",
+        "z": "ff28960ba7ba913e",
+        "name": "",
+        "group": "df67b779.0f71e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Invoke OpenWhisk",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "a595f8d75ed62487"
+            ]
+        ]
+    },
+    {
+        "id": "a595f8d75ed62487",
+        "type": "http request",
+        "z": "ff28960ba7ba913e",
+        "name": "Invoke OpenWhisk Action",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://172.17.0.1:3233/api/v1/namespaces/guest/actions/pms02?/pms02",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "basic",
+        "senderr": false,
+        "headers": [],
+        "x": 510,
+        "y": 180,
+        "wires": [
+            [
+                "c1447ccc9ce1b7bb",
+                "dfad6c3b.431ce"
+            ]
+        ]
+    },
+    {
+        "id": "c1447ccc9ce1b7bb",
+        "type": "debug",
+        "z": "ff28960ba7ba913e",
+        "name": "Result",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "dfad6c3b.431ce",
+        "type": "ui_text",
+        "z": "ff28960ba7ba913e",
+        "group": "df67b779.0f71e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Result",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2936bc099df8c4f7",
+        "type": "http in",
+        "z": "233adb9941e22356",
+        "name": "Blacklist input",
+        "url": "/blacklist",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 350,
+        "y": 380,
+        "wires": [
+            [
+                "702437e8222ce3a4",
+                "739bae6c97aed612"
+            ]
+        ]
+    },
+    {
+        "id": "739bae6c97aed612",
+        "type": "function",
+        "z": "233adb9941e22356",
+        "name": "Function to Process Blacklist",
+        "func": "var blacklistedIP = msg.payload.ip;\nif (msg.payload.status === 'Blacklisted') {\n    // Update the LED to red\n    msg.payload = true;\n    node.status({fill:'red',shape:'dot',text:'Blacklisted IP: ' + blacklistedIP});\n    // Play an alarm sound\n    msg.audio = { command: 'play', payload: '/data/mixkit-alert-alarm-1005.wav' };\n    // Update the UI text\n    msg.uiText = 'The blacklisted IP is: ' + blacklistedIP;\n} else {\n    msg.payload = false;\n    node.status({});\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 260,
+        "wires": [
+            [
+                "fbd999fd9360ce94"
+            ]
+        ]
+    },
+    {
+        "id": "fbd999fd9360ce94",
+        "type": "ui_text",
+        "z": "233adb9941e22356",
+        "group": "2963b5d45a9c8c23",
+        "order": 1,
+        "width": "3",
+        "height": "2",
+        "name": "",
+        "label": "Blacklisted IP",
+        "format": "{{msg.uiText}}",
+        "layout": "col-center",
+        "x": 690,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "702437e8222ce3a4",
+        "type": "debug",
+        "z": "233adb9941e22356",
+        "name": "debug 41",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "c5f60998d3a5d914",
+        "type": "ui_button",
+        "z": "233adb9941e22356",
+        "name": "",
+        "group": "df67b779.0f71e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Invoke OpenWhisk",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 190,
+        "y": 500,
+        "wires": [
+            [
+                "169470ced05ac37a"
+            ]
+        ]
+    },
+    {
+        "id": "169470ced05ac37a",
+        "type": "http request",
+        "z": "233adb9941e22356",
+        "name": "Invoke OpenWhisk Action",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://172.17.0.1:3233/api/v1/namespaces/guest/actions/pms02?/pms02",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "basic",
+        "senderr": false,
+        "headers": [],
+        "x": 510,
+        "y": 500,
+        "wires": [
+            [
+                "c67a3b4c3a9ee74b",
+                "63edec5d0a8333f2"
+            ]
+        ]
+    },
+    {
+        "id": "c67a3b4c3a9ee74b",
+        "type": "debug",
+        "z": "233adb9941e22356",
+        "name": "Result",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "63edec5d0a8333f2",
+        "type": "ui_text",
+        "z": "233adb9941e22356",
+        "group": "df67b779.0f71e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Result",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "fabf558b02d16166",
+        "type": "http in",
+        "z": "233adb9941e22356",
+        "name": "",
+        "url": "/blacklistlog",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 800,
+        "wires": [
+            [
+                "3afba06a294aa86d",
+                "433418f8c9d5b46a"
+            ]
+        ]
+    },
+    {
+        "id": "3afba06a294aa86d",
+        "type": "file in",
+        "z": "233adb9941e22356",
+        "name": "Read Text File",
+        "filename": "/data/script.log",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "allProps": false,
+        "x": 380,
+        "y": 800,
+        "wires": [
+            [
+                "031f9976f077a0cb",
+                "f0056ace666ff077"
+            ]
+        ]
+    },
+    {
+        "id": "031f9976f077a0cb",
+        "type": "http response",
+        "z": "233adb9941e22356",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "433418f8c9d5b46a",
+        "type": "debug",
+        "z": "233adb9941e22356",
+        "name": "debug 42",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "f0056ace666ff077",
+        "type": "debug",
+        "z": "233adb9941e22356",
+        "name": "debug 43",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 960,
+        "wires": []
+    }
+]
